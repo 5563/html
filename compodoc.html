@@ -6,6 +6,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="compodoc.css" type="text/css">
+    <link rel="stylesheet" href="at.alicdn.com/t/font_1849092_bcuxc99a6f7.css" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.1/css/swiper.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.1/js/swiper.min.js"></script>
+    <script language="javascript">
+        window.onload = function(){
+        var mySwiper = new Swiper('.swiper-container',{
+           // loop: true, // 循环模式选项
+            pagination: {
+                el: '.swiper-pagination',
+            },
+        })
+        }
+       
+        
+    </script>
 </head>
 
 <body>
@@ -18,7 +33,7 @@
                         <li class="menu_li"><a href="">Getting started</a></li>
                         <li class="menu_li"><a href="">Features</a></li>
                         <li class="menu_li">
-                            <a href=""><i class="iconfont">&#xe68b;</i>Changelog</a>
+                            <a href=""><i class="iconfont icon-shu"></i>Changelog</a>
                         </li>
                         <li class="menu_li">
                             <a href=""><i class="iconfont">&#xe68b;</i>GitHub</a>
@@ -33,14 +48,196 @@
                 <div class="container_inner">
                     <h1 class="container_title">The missing documentation tool for you <br> <b>Angular</b> application</h1>
                     <p class="container_describe">Generate your Angular project documentation in <b>seconds.</b></p>
-                        <p class="container_describe">Compodoc comes with a lot of features. Check it out now!</p>
+                    <p class="container_describe">Compodoc comes with a lot of features. Check it out now!</p>
+                    <div class="container_btn">
+                        <a class=" container_all_btn container_lbtn" href="">Learn more</a>
+                        <a class=" container_all_btn container_rbtn" href="">Live demo</a>
+                    </div>
+                
+                    
+
+                    <div class="swiper-container">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide"><img src="./images/2.png"/></div>
+                            <div class="swiper-slide"> <img src="./images/4.png"/></div>
+                            <div class="swiper-slide"><img src="./images/5.png"/></div>
+                            <div class="swiper-slide"> <img  src="./images/6.png"/></div>
+                            <div class="swiper-slide"><img src="./images/7.png"/></div>
+                        </div>
+                        <div class="swiper-pagination">
+                        </div><!--分页器。如果放置在swiper-container外面，需要自定义样式。-->
+                    </div>
+
+                
                 </div>
 
             </div>
 
         </div>
-
+        
     </div>
+    <div class="section_content">
+        <a href=""><img class="section_content_item" src="./images/badge.svg"></a>
+        <a href=""><img class="section_content_item" src="./images/badge (1).svg"></a>
+        <a href=""><img class="section_content_item" src="./images/develop.svg"></a>
+        <a href=""> <img class="section_content_item" src="./images/failing.svg"></a>   
+        <div class="section_content_txtbtn">
+            <a class="section_txtbtn_all txtbtn_left" href=""><svg viewBox="0 0 16 16" width="14" height="14" class="octicon octicon-mark-github" aria-hidden="true"><path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"></path></svg>Star</a>
+            <a class="section_txtbtn_all txtbtn_right" href="">3,047</a>
+        </div>
+    </div>
+    <hr style="background-color: silver;">
+    <div class="feature_content">
+        <h2 class="content_title">Features</h2>
+        <hr style="width: 200px;">
+    </div>
+    <div class="feature_box">
+        <table class="feature_box_table">
+            <tr>
+                <td class="feature_box_table_td">
+                    <img src="./images/feature1.PNG">
+                    <h3>Angular friendly</h3>
+                    <p>Compodoc supports all major APIs of Angular</p>
+                </td>
+                <td class="feature_box_table_td">
+                    <img src="./images/feature2.PNG">
+                    <h3>Open-source and on npm</h3>
+                    <p>Use it directly in your project using npm and one script, that's it !</p>
+                </td>
+                <td class="feature_box_table_td">
+                    <img src="./images/feature3.PNG">
+                    <h3>Local tool</h3>
+                    <p>No server needed, no sources uploaded online</p>
+                </td>
+            </tr>
+            <tr>
+                <td class="feature_box_table_td">
+                    <img src="./images/feature4.PNG">
+                    <h3>Beautiful themes</h3>
+                    <p>7 themes are available from famous<br> documentation tools like Gitbook, Read the Docs or projects like Vagrant, Laravel, Postmark and Stripe</p>
+                </td>
+                <td class="feature_box_table_td">
+                    <img src="./images/feature5.PNG">
+                    <h3>Search engine</h3>
+                    <p>Compodoc include a powerful search engine (lunr.js) for easily finding your information</p>
+                </td>
+                <td class="feature_box_table_td">
+                    <img src="./images/feature6.PNG">
+                    <h3>Responsive Design</h3>
+                    <p>The generated pages display very well on mobile, tablet and desktop</p>
+                </td>
+            </tr>
+        </table>
+       
+    </div>
+    <a class="learnmore" href="">Learnmore</a>
+    <hr style="margin-top: 50px; background-color: rgb(17, 16, 16);">
+    <div class="feature_content">
+        <h2 class="content_title">Getting started</h2>
+        <hr style="width: 200px;">
+    </div>
+    <div class="getting_content">
+        <img src="./images/get1.PNG">
+        <p class="getting_content_decoration">Read the <span style="color: skyblue;">documentation</span>  for others scenarios.</p>
+    </div>
+    <a class="learnmore" href="">Learnmore</a>
+    <hr style="margin-top: 50px; background-color: rgb(17, 16, 16);">
+    <h2 class="content_title">6 beautiful themes</h2>
+    <div class="beautiful_themes">
+        <div class="beautiful_themes_row themes_one" >
+            <div class="themes">
+                <img src="./images/theme-gitbook.png" alt="">
+                <p>Gitbook</p>
+            </div>
+            <div class="themes">
+                <img src="./images/theme-laravel.png" alt="">
+                <p>Gitbook</p>
+            </div>
+
+        </div>
+        <br>
+        <div class="beautiful_themes_row themes_two" >
+            <div class="themes">
+                <img src="./images/theme-postmark.png" alt="">
+                <p>Gitbook</p>
+            </div>
+            <div class="themes">
+                <img src="./images/theme-readthedocs.png" alt="">
+                <p>Gitbook</p>
+            </div>
+
+        </div>
+        <br>
+        <div class="beautiful_themes_row">
+            <div class="themes">
+                <img src="./images/theme-stripe.png" alt="">
+                <p>Gitbook</p>
+            </div>
+            <div class="themes">
+                <img src="./images/theme-vagrant.png" alt="">
+                <p>Gitbook</p>
+            </div>
+
+        </div>
+    </div>
+    <a class="learnmore" href="">Learnmore</a>
+    <hr style="margin-top: 50px; background-color: rgb(17, 16, 16);">
+    <h2 class="content_title">They use Compodoc</h2>
+        <hr style="width: 200px;">
+    <div class="useCompodoc use_one">
+        <div class="useCompodoc_item">
+            <img src="./images/mgechev.github.io-angular-seed-(iPad).png" alt="">
+            <p>Angular seed</p>
+            <a href="" class="useCompodoc_item_btn">watch</a>
+        </div>
+        <div class="useCompodoc_item">
+            <img src="./images/mattlewis92.github.io-angular-calendar-demos-(iPad).png" alt="">
+            <p>Angular seed</p>
+            <a href="" class="useCompodoc_item_btn" >watch</a>
+        </div>
+        <div class="useCompodoc_item">
+            <img src="./images/mattlewis92.github.io-angular-gauge-(iPad).png" alt="">
+            <p>Angular seed</p>
+            <a class="useCompodoc_item_btn" href="" >watch</a>
+        </div>
+    </div>
+    <div class="useCompodoc use_two">
+        <div class="useCompodoc_item">
+            <img src="./images/s1.PNG" style="height: 270px;" alt="">
+            <p>Angular seed</p>
+            <a class="useCompodoc_item_btn" href="" >watch</a>
+        </div >
+        <div class="useCompodoc_item">
+            <img src="./images/generator-angular2-library.jpg" alt="">
+            <p>Angular seed</p>
+            <a class="useCompodoc_item_btn" href="" >watch</a>
+        </div >
+        <div class="useCompodoc_item">
+            <img src="./images/docs.firetask.io_.png" alt="">
+            <p>Angular seed</p>
+            <a class="useCompodoc_item_btn" href="" >watch</a>
+        </div>
+    </div>
+    <hr style="margin-top: 50px; background-color: rgb(17, 16, 16);">
+    <footer class="footer_content">
+        <div class="head_img">
+            <a href=""><img src="./images/headimg1.png" alt="" width="64px" height="64px"></a>
+            <a href=""><img src="./images/headimg2.png" alt=""width="64px" height="64px"></a>
+            <a href=""><img src="./images/headimg3.png" alt=""width="64px" height="64px"></a>
+            <a href=""><img src="./images/headimg4.png" alt=""width="64px" height="64px"></a>
+            <a href=""><img src="./images/headimg5.png" alt=""width="64px" height="64px"></a>
+            <a href=""><img src="./images/headimg6.png" alt=""width="64px" height="64px"></a>
+            <a href=""><img src="./images/headimg7.png" alt=""width="64px" height="64px"></a>
+            <a href=""><img src="./images/headimg8.png" alt=""width="64px" height="64px"></a>
+            <a href=""><img src="./images/headimg9.png" alt=""width="64px" height="64px"></a>
+            <a href=""><img src="./images/10.svg" alt=""height="64px"></a>
+            <a href=""><img src="./images/10.png" alt=""height="64px"></a>
+            <a href=""><img src="./images/11.png" alt=""height="64px"></a>
+            <a href=""><img src="./images/12.svg" alt=""height="64px"></a>
+        </div>
+        <a class="logo" href=""> </a>
+        <p class="footer_text">MIT © 2016-2017 - <span style="color: royalblue;"> Vincent Ogloblinsky</span></p>
+    </footer>
 </body>
 
 </html>
